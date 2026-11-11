@@ -4,10 +4,10 @@
    downloaded file, and Android's own package installer asks them to confirm the install. */
 (function () {
   'use strict';
-  const APK_URL = 'https://github.com/saksham744-y/Daybreak/releases/download/v3.0/daybreak3.apk';                       // e.g. 'https://saksham744-y.github.io/downloads/daybreak.apk'
+  const APK_URL = 'https://github.com/saksham07-y/Daybreak/releases/download/v3.0/daybreak3.apk';                       // e.g. 'https://saksham744-y.github.io/downloads/daybreak.apk'
   const APK_NOTE = 'Version 3.0 · 9.29 MB';                      // optional line shown under the button, e.g. 'Version 1.4 · 12 MB'
   const KEY = 'daybreak.appPrompt';         // when the popup was last dismissed (localStorage)
-  const WAIT_DAYS = 7;                      // do not show again for this many days after "Not now"
+  const WAIT_DAYS = 1;                      // do not show again for this many days after "Not now"
 
   const ua = navigator.userAgent || '';
   const isAndroid = /Android/i.test(ua);
